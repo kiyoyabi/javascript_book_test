@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>時刻表示</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var d = new Date();
+      var year = d.getFullYear();
+      var month = d.getMonth() + 1;
+      var date = d.getDate();
+      var hour = d.getHours();
+      var minute = d.getMinutes();
+      var second = d.getSeconds();
+      document.write('<p>');
+      document.write(year + '年');
+      document.write(month + '月');
+      document.write(date + '日');
+      document.write(hour + '時');
+      document.write(minute + '分');
+      document.write(second + '秒');
+      document.write('</p>');
+    </script>
+  </body>
+</html>
+
+<!-- ただの時計完成 -->
